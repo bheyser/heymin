@@ -1,0 +1,28 @@
+{
+    "name": "heymin/deps",
+    "description": "Dependencies of HEYMIN",
+    "license": "none",
+
+    "authors": [{
+        "name": "Björn Heyser",
+        "email": "bh@bjoernheyser.de",
+        "homepage": "http://www.bjoernheyser.de",
+        "role": "Developer"
+    }],
+
+    "config": {
+        "optimize-autoloader": true
+    },
+
+    "autoload": {
+        "psr-4": { "HEYMiN\\": "src/" },
+		"classmap": [ "app" ],
+		"exclude-from-classmap": []
+    },
+
+    "require": {
+    },
+
+    "require-dev": {
+    }
+}
