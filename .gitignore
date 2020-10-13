@@ -1,0 +1,6 @@
+# Development IDE
+.idea
+
+# Composer Depencies
+vendor/*
+
